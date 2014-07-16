@@ -23,11 +23,11 @@ from scotus.utility import get_data_by_condition, get_data_before_date, get_mean
 ROLL_WINDOWS=[None, 10]
 
 # Setup hyperparameters
-search_parameters = {'feature_select__percentile': [75],
+search_parameters = {'feature_select__percentile': [100],
                      'classify__min_samples_leaf': [2],
-                         'classify__max_depth': [24],
-                         'classify__max_features': [8],
-                         'classify__n_estimators': [100]
+                         'classify__max_depth': [32],
+                         'classify__max_features': [24],
+                         'classify__n_estimators': [4000]
                          }
 
 # Set the list of verbatim features to copy from the case and docket variables
@@ -71,11 +71,13 @@ def train_model(feature_data, target_data, search_parameters):
     model_pipeline = sklearn.pipeline.Pipeline([
             ('scale', sklearn.preprocessing.StandardScaler()),
             ('feature_select', sklearn.feature_selection.SelectPercentile(sklearn.feature_selection.f_classif)),
-            ('classify', sklearn.ensemble.ExtraTreesClassifier(bootstrap=True))
+            ('classify', sklearn.ensemble.ExtraTreesClassifier(bootstrap=True, 
+                                                               criterion='entropy',
+                                                               ))
         ])
     
     # Create the stratified cross-validation folder
-    cv = sklearn.cross_validation.StratifiedKFold(target_data, n_folds=5)
+    cv = sklearn.cross_validation.StratifiedKFold(target_data, n_folds=10)
     
     # Create grid searcher
     grid_search = sklearn.grid_search.GridSearchCV(model_pipeline,
@@ -85,7 +87,7 @@ def train_model(feature_data, target_data, search_parameters):
                                                                                            .value_counts().idxmax()),
                                                    cv=cv,
                                                    verbose=0,
-                                                   n_jobs=3)
+                                                   n_jobs=2)
 
     # Fit model in grid search
     grid_search.fit(feature_data, target_data)

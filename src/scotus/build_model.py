@@ -109,6 +109,7 @@ bad_feature_labels = ['docket',
                       #'petitioner_dk', 'respondent_dk'
                       ]
 feature_labels = []
+feature_weights = []
 
 # Outcome data
 outcome_data = pandas.DataFrame()
@@ -166,6 +167,9 @@ for docket_id in docket_list:
         case_outcome_record = docket_outcome_data.ix[0][['docket', 'docket_outcome', 'docket_vote_mean', 'docket_vote_sum']]
         case_outcome_record['docket_outcome'] = int((case_record['lcDispositionDirection'] == case_record['decisionDirection']).tolist().pop())
         case_outcome_data = case_outcome_data.append(case_outcome_record)
+
+        # Append feature weights
+        feature_weights.append(copy.deepcopy(model.best_estimator_.steps[-1][1].feature_importances_.tolist()))
         
         # Aggregate all data
         outcome_data = outcome_data.append(copy.deepcopy(docket_outcome_data))
@@ -209,6 +213,10 @@ for docket_id in docket_list:
         model = train_model(feature_data[feature_labels],  target_data[0].apply(int).tolist(),
                             search_parameters)
 
+# Output the featue weight data
+feature_weight_df = pandas.DataFrame(feature_weights,
+                 columns=feature_labels)
+
 # Track the case assessment
 case_assessment = []
 
@@ -234,6 +242,9 @@ for case_id, case_data in outcome_data.groupby('docket'):
     # Get the votes aligned
     for value in vote_data['prediction']:
         row.append(value)
+
+    for value in vote_data['justice_direction_mean']:
+        row.append(value)
         
     # Pad if fewer than nine justices voting
     if vote_data['prediction'].shape[0] < 9:
@@ -251,7 +262,9 @@ column_list = ['docket', 'year', 'issue', 'issue_area', 'case_source_circuit',
                'overturn_count_predict', 'overturn_count_actual', 'overturn_predict',
                'overturn_actual', 'justice_1', 'justice_2', 'justice_3', 'justice_4',
                'justice_5', 'justice_6', 'justice_7', 'justice_8', 'justice_9',
-               'justice_chief']
+               'justice_1_dir', 'justice_2_dir', 'justice_3_dir', 'justice_4_dir',
+               'justice_5_dir', 'justice_6_dir', 'justice_7_dir', 'justice_8_dir', 
+               'justice_9_dir',  'justice_chief']
     
 case_assessment_df = pandas.DataFrame(case_assessment, columns=column_list)
 case_assessment_df['correct'] = (case_assessment_df['overturn_predict'] == case_assessment_df['overturn_actual'])
@@ -297,6 +310,7 @@ os.makedirs(run_output_folder)
 # Output data
 outcome_data.to_csv(os.path.join(run_output_folder, 'justice_outcome_data.csv'))
 case_assessment_df.to_csv(os.path.join(run_output_folder, 'case_outcome_data.csv'))
+feature_weight_df.to_csv(os.path.join(run_output_folder, 'feature_weights.csv'))
 
 # Make a ZIP
 os.system('zip -9 {0}.zip {1}'.format(os.path.join(output_folder, timestamp_suffix),
