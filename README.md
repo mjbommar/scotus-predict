@@ -1,6 +1,6 @@
 Predicting the Behavior of the Supreme Court of the United States: A General Approach
 ==================
-  *  __Title__: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2463244
+  *  __Title__: Predicting the Behavior of the Supreme Court of the United States: A General Approach
   *  __Authors__: [Daniel Martin Katz](http://www.law.msu.edu/faculty_staff/profile.php?prof=780), [Michael J Bommarito II](http://bommaritollc.com/), [Josh Blackman](http://joshblackman.com)
   *  __Paper URL__: [http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2463244](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2463244)
   *  __Blog URL__: [http://lexpredict.com/portfolio/predicting-the-supreme-court/](http://lexpredict.com/portfolio/predicting-the-supreme-court/)
