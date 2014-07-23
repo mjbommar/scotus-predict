@@ -1,4 +1,4 @@
-Measuring the Complexity of the Law: The United States Code
+Predicting the Behavior of the Supreme Court of the United States: A General Approach
 ==================
   *  __Title__: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2463244
   *  __Authors__: [Daniel Martin Katz](http://www.law.msu.edu/faculty_staff/profile.php?prof=780), [Michael J Bommarito II](http://bommaritollc.com/), [Josh Blackman](http://joshblackman.com)
