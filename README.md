@@ -12,4 +12,4 @@ Building upon developments in theoretical and applied machine learning, as well 
 The source and data in this repository allow for the reproduction of the results in this paper.  
 
 ## Data Description
-The data used in this paper is availabe from the [Supreme Court Database (SCDB)](http://scdb.wustl.edu/).
+The data used in this paper is available from the [Supreme Court Database (SCDB)](http://scdb.wustl.edu/).
