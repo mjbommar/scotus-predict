@@ -13,3 +13,6 @@ The source and data in this repository allow for the reproduction of the results
 
 ## Data Description
 The data used in this paper is available from the [Supreme Court Database (SCDB)](http://scdb.wustl.edu/).
+
+## Version
+The latest version of this model was relesed in October 2015.
