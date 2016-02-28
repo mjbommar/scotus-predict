@@ -1,0 +1,60 @@
+caseId	docketId	caseIssuesId	voteId	dateDecision	decisionType	usCite	sctCite	ledCite	lexisCite	term	naturalCourt	chief	docket	caseName	dateArgument	dateRearg	petitioner	petitionerState	respondent	respondentState	jurisdiction	adminAction	adminActionState	threeJudgeFdc	caseOrigin	caseOriginState	caseSource	caseSourceState	lcDisagreement	certReason	lcDisposition	lcDispositionDirection	declarationUncon	caseDisposition	caseDispositionUnusual	partyWinning	precedentAlteration	voteUnclear	issue	issueArea	decisionDirection	decisionDirectionDissent	authorityDecision1	authorityDecision2	lawType	lawSupp	lawMinor	majOpinWriter	majOpinAssigner	splitVote	majVotes	minVotes
+2015-001	2015-001	2015-001	2015-001	3/1/2016						2015	1704	Roberts	14-520	Hawkins v. Community Bank of Raymore	10/5/2015		163		113		1			0	87		28		0	2	2	1	1						20130	2					3	600	Equal Credit Opportunity Act					
+2015-002	2015-002	2015-002	2015-002	3/1/2016						2015	1704	Roberts	13-1067	OBB Personenverkehr AG v. Sachs	10/5/2015		208	6	24		1			0	50		29		1	2	4	2	1						130020	13					3	513						
+2015-003	2015-003	2015-003	2015-003	3/1/2016						2015	1704	Roberts	14-361	Ocasio v. U.S.	10/6/2015		126		27		1			0	79		24		0	2	7	1	1						10470	1					3	600	Hobbs Act					
+2015-004	2015-004	2015-004	2015-004	3/1/2016						2015	1704	Roberts	14-462	DIRECTV v. Imburgia	10/6/2015		205		134		1			0	302	6	301	6	0	5	2	2	1						80160	8					3	388						
+2015-005	2015-005	2015-005	2015-005	3/1/2016						2015	1704	Roberts	14-450	Kansas v. Carr	10/7/2015		28	20	126		1			0	302	20	300	20	1	6	7	2	1						10130	1					2	221						
+2015-006	2015-006	2015-006	2015-006	3/1/2016						2015	1704	Roberts	14-449	Kansas v. Carr	10/7/2015		28	20	126		1			0	302	20	300	20	1	6	7	2	1						10130	1					2	221						
+2015-007	2015-007	2015-007	2015-007	3/1/2016						2015	1704	Roberts	14-452	Kansas v. Gleason	10/7/2015		28	20	126		1			0	302	20	300	20	1	6	7	2	1						10130	1					2	221						
+2015-008	2015-008	2015-008	2015-008	3/1/2016						2015	1704	Roberts	14-280	Montgomery v. Louisiana	10/13/2015		126		28	22	1			0	302	22	300	22	1	2	9	1	1						10040	1					2	221						
+2015-009	2015-009	2015-009	2015-009	3/1/2016						2015	1704	Roberts	14-7505	Hurst v. Florida 	10/13/2015		126		28	12	1			0	302	12	300	12	1	9	2	1	1						10130	1					2	221						
+2015-010	2015-010	2015-010	2015-010	3/1/2016						2015	1704	Roberts	14-840	Federal Energy Regulatory Commission v. Electric Power Supply Association	10/14/2015		344		148		1	44		0	32		32		1	10	4	1	1						80270	8					3	336						
+2015-011	2015-011	2015-011	2015-011	3/1/2016						2015	1704	Roberts	14-841	EnerNOC v. Electric Power Supply Association	10/14/2015		133		148		1	44		0	32		32		1	2	4	1	1						80270	8					3	336						
+2015-012	2015-012	2015-012	2015-012	3/1/2016						2015	1704	Roberts	14-857	Campbell-Ewald Company v. Gomez	10/14/2015		101		134		1			0	48		29		0	2	5	2	1						90130	9					1	139						
+2015-013	2015-013	2015-013	2015-013	3/1/2016						2015	1704	Roberts	13-1339	Spokeo v. Robins	11/2/2015		122		134		1			0	48		29		0	2	4	2	1						90230	9					1	139						
+2015-014	2015-014	2015-014	2015-014	3/1/2016						2015	1704	Roberts	14-8349	Foster v. Chatman	11/2/2015		126		19	13	1			0	302	13	300	13	0	10	9	1	1						10600	1					2	221						
+2015-015	2015-015	2015-015	2015-015	3/1/2016						2015	1704	Roberts	14-1096	Torres v. Lynch	11/3/2015		106		1		1	7		0	22		22		0	2	9	1	1						20110	2					3	344						
+2015-016	2015-016	2015-016	2015-016	3/1/2016						2015	1704	Roberts	14-8358	Lockhart v. United States	11/3/2015		126		27		1			0	94		22		0	2	2	1	1						10570	1					3	600	sentencing statute					
+2015-017	2015-017	2015-017	2015-017	3/1/2016						2015	1704	Roberts	14-844	Bruce v. Samuels	11/4/2015		215		309		1			0	55		32		0	2	12	1	1						20350	2					3	600	Prison Litigation Reform Act					
+2015-018	2015-018	2015-018	2015-018	3/1/2016						2015	1704	Roberts	14-990	Shapiro v. McManus	11/4/2015		251		4	25	1			0	79		24		0	2	2	1	1						20090	2					3	600	statute governing three-judge district court panels					
+2015-019	2015-019	2015-019	2015-019	3/1/2016						2015	1704	Roberts	14-723	Montanile v. Board of Trustees of the National Elevator Industry Health Benefit Plan	11/9/2015		145		146		1			0	58		31		0	2	2	1	1						80090	8					3	323						
+2015-020	2015-020	2015-020	2015-020	3/1/2016						2015	1704	Roberts	14-916	Kingdomware Technologies v. United States	2/1/2016		122		27		1			0	3		8		1	10	2	3	1						20250	2					3	600	Veterans Benefits, Health Care, and Information Technology Act					
+2015-021	2015-021	2015-021	2015-021	3/1/2016						2015	1704	Roberts	14-1146	Tyson Foods v. Bouaphakeo	11/10/2015		151		145		1			0	70		28		1	2	2	2	1						70040	7					3	334						
+2015-022	2015-022	2015-022	2015-022	3/1/2016						2015	1704	Roberts	14-419	Luis v. United States	11/10/2015		100		27		1			0	58		31		0	2	2	1	1						40040	4					2	207						
+2015-027	2015-027	2015-027	2015-027	3/1/2016						2015	1704	Roberts	14-613	Green v. Brennan	11/30/2015		10	7	412		1			0	52		30		0	2	7	1	1						20060	2					3	384						
+2015-031	2015-031	2015-031	2015-031	3/1/2016						2015	1704	Roberts	14-1095	Musacchio v. United States	11/30/2015		126		27		1			0	120		25		0	2	2	1	1						10600	1					9	900						
+2015-026	2015-026	2015-026	2015-026	3/1/2016						2015	1704	Roberts	14-510	Menominee Indian Tribe of Wisconsin v. United States	12/1/2015		170		27		1			0	55		32		0	2	2	1	1						20150	2					3	600	Contract Disputes Act					
+2015-032	2015-032	2015-032	2015-032	3/1/2016						2015	1704	Roberts	14-1132	Merrill Lynch, Pierce, Fenner & Smith v. Manning	12/1/2015		119		237		1			0	92		23		0	2	4	2	1						80120	8					3	365						
+2015-024	2015-024	2015-024	2015-024	3/1/2016						2015	1704	Roberts	14-181	Gobeille v. Liberty Mutual Insurance Company	12/2/2015		4	53	146		1			0	124		22		1	7	4	1	1						80090	8					3	323						
+2015-023	2015-023	2015-023	2015-023	3/1/2016						2015	1704	Roberts	13-1496	Dollar General Corporation v. Mississippi Band of Choctaw Indians	12/7/2015		238		170		1			0	85		25		1	10	2	2	1						20150	2					9	900						
+2015-033	2015-033	2015-033	2015-033	3/1/2016						2015	1704	Roberts	14-1175	Franchise Tax Board of California v. Hyatt	12/7/2015		4	6	25	33	1	117	6	0	302	33	300	33	0	10	7	3	1						110030	11					9	900						
+2015-025	2015-025	2015-025	2015-025	3/1/2016						2015	1704	Roberts	14-232	Harris v. Arizona Independent Redistricting Commission	12/8/2015		251		4	4	2			1	45		45		1	1	12	2	1						20010	2					2	231						
+2015-029	2015-029	2015-029	2015-029	3/1/2016						2015	1704	Roberts	14-940	Evenwel v. Abbott	12/8/2015		251		28	51	2			1	122		122		0	1	1	2	1						20010	2					2	231						
+2015-030	2015-030	2015-030	2015-030	3/1/2016						2015	1704	Roberts	14-981	Fisher v. University of Texas at Austin	12/9/2015		239		26	51	1			0	122		25		1	10	2	2	1						20070	2					2	231						
+2015-028	2015-028	2015-028	2015-028	3/1/2016						2015	1704	Roberts	14-915	Friedrichs v. California Teachers Association	1/11/2016		247		249	6	1			0	48		29		0	10	2	2	1						70030	7					2	200						
+2015-034	2015-034	2015-034	2015-034	3/1/2016						2015	1704	Roberts	22o142 	Florida v. Georgia	2/1/2016		28	12	28	13	9			0						1									110030	11					9	900						
+2015-035	2015-035	2015-035	2015-035	3/1/2016						2015	1704	Roberts	22o143	Mississippi v. Tennessee	2/1/2016		28	29	28	50	9			0						1									110030	11					2	223						
+2015-036	2015-036	2015-036	2015-036	3/1/2016						2015	1704	Roberts	14-1516	Duncan v. Owens	1/12/2016		19	17	215		1			0	66		27		0	10	3	2	1						10020	1					3	341						
+2015-037	2015-037	2015-037	2015-037	3/1/2016						2015	1704	Roberts	14-8913	Molina-Martinez v. United States 	1/12/2016		126		27		1			0	121		25		0	2	2	1	1						10370	1					4	401						
+2015-038	2015-038	2015-038	2015-038	3/1/2016						2015	1704	Roberts	14-770	Bank Markazi v. Peterson 	1/13/2016		24		208		1			0	96		22		0	10	2	3	1						130020	13					1	109						
+2015-039	2015-039	2015-039	2015-039	3/1/2016						2015	1704	Roberts	15-108	Puerto Rico v. Sanchez Valle 	1/13/2016		18	46	100		1			0	17	46	15		1	2	3	2	1						10170	1					2	206						
+2015-040	2015-040	2015-040	2015-040	3/1/2016						2015	1704	Roberts	14-1280	Heffernan v. City of Paterson	1/19/2016		19	35	3	35	1			0	92		23		0	2	2	1	1						30010	3					2	200						
+2015-041	2015-041	2015-041	2015-041	3/1/2016						2015	1704	Roberts	14-1382	Americold Realty Trust v. ConAgra Foods 	1/19/2016		122		158		1			0	72		30		0	2	11	3	1						90520	9					3	600	Removal statute					
+2015-042	2015-042	2015-042	2015-042	3/1/2016						2015	1704	Roberts	14-1406	Nebraska v. Parker 	1/20/2016		28	32	170		1			0	89		28		0	2	2	2	1						20150	2					3	600	1882 federal act concerning sale of tribal lands					
+2015-043	2015-043	2015-043	2015-043	3/1/2016						2015	1704	Roberts	14-1209	Sturgeon v. Frost 	1/20/2016		100		19	2	1			0	44		29		0	10	7	2	1						100080	10					3	600	Alaska National Interest Lands Conservation Act of 1980					
+2015-044	2015-044	2015-044	2015-044	3/1/2016						2015	1704	Roberts	14-614	Hughes v. PPL EnergyPlus, LLC	2/1/2016		4	25	148		1	117	25	0	79		24		0	10	2	1	1						100030	10					3	336						
+2015-045	2015-045	2015-045	2015-045	3/1/2016						2015	1704	Roberts	14-623	CPV Maryland, LLC v. PPL EngergyPlus, LLC	2/1/2016		4	25	148		1	117	25	0	79		24		0	10	2	1	1						100030	10					3	336						
+2015-046	2015-046	2015-046	2015-046	3/1/2016						2015	1704	Roberts	14-1373	Utah v. Strieff	2/1/2016		28	52	126		1			0	302	52	300	52	0	9	3	2	1						10050	1					2	205						
+2015-047	2015-047	2015-047	2015-047	3/1/2016						2015	1704	Roberts	14-1375	CRST Van Expedited v. EEOC	2/1/2016																																					
+2015-048	2015-048	2015-048	2015-048	3/1/2016						2015	1704	Roberts	14-1418	Zubik v. Burwell	2/1/2016																																					
+2015-049	2015-049	2015-049	2015-049	3/1/2016						2015	1704	Roberts	14-1453	Priests for Life v. Burwell	2/1/2016																																					
+2015-050	2015-050	2015-050	2015-050	3/1/2016						2015	1704	Roberts	14-1457	Betterman v. Montana	2/1/2016																																					
+2015-051	2015-051	2015-051	2015-051	3/1/2016						2015	1704	Roberts	14-1458	MHN Government Services v. Zaborowski	2/1/2016																																					
+2015-052	2015-052	2015-052	2015-052	3/1/2016						2015	1704	Roberts	14-1468	Birchfield v. North Dakota 	2/1/2016																																					
+2015-053	2015-053	2015-053	2015-053	3/1/2016						2015	1704	Roberts	14-1470	Bernard v. Minnesota 	2/1/2016																																					
+2015-054	2015-054	2015-054	2015-054	3/1/2016						2015	1704	Roberts	14-1504	Wittman v. Personhuballah	2/1/2016																																					
+2015-055	2015-055	2015-055	2015-055	3/1/2016						2015	1704	Roberts	14-1505	Roman Catholic Archbishop of Washington v. Burwell	2/1/2016																																					
+2015-056	2015-056	2015-056	2015-056	3/1/2016						2015	1704	Roberts	14-1507	Beylund v. Levi	2/1/2016																																					
+2015-057	2015-057	2015-057	2015-057	3/1/2016						2015	1704	Roberts	14-1513	Halo Electronics v. Pulse Electronics 	2/1/2016		172		184		1			0	90		8		0	10	2	3	1						80180	8					3	600	35 U.S.C.A. 284 (allowing enhanced damages in patent cases)					
+2015-058	2015-058	2015-058	2015-058	3/1/2016						2015	1704	Roberts	14-1520	Stryker Corp. v. Zimmer 	2/1/2016		172		184		1			0	82		8		0	10	7	3	1						80180	8					3	600	35 U.S.C.A. 284 (allowing enhanced damages in patent cases)					
+2015-059	2015-059	2015-059	2015-059	3/1/2016						2015	1704	Roberts	14-6166	Taylor v. United States	2/1/2016		126		27		1			0	127		24		0	2	2	1	1						10470	1					3	600	Hobbs Act					
