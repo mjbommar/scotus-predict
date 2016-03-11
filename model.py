@@ -43,7 +43,7 @@ def get_raw_scdb_data(scdb_path=None):
                                  "SCDB_{0}_justiceCentered_Citation.csv".format(SCDB_RELEASE))
     
     # Load and return
-    raw_scdb_df = pandas.read_csv(scdb_path)
+    raw_scdb_df = pandas.read_csv(scdb_path, encoding = "ISO-8859-1")
     
     # Get outcome data
     outcome_map = get_outcome_map()
