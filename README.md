@@ -1,3 +1,7 @@
+# N.B.: The results and research available in this repository are superseded by [mjbommar/scotus-predict-v2](https://github.com/mjbommar/scotus-predict-v2) and [arXiv:1612.03473](https://arxiv.org/abs/1612.03473). 
+
+# N.B.: Unless you intend to replicate the prior paper results from 2014, all future citations and research should be directed towards [mjbommar/scotus-predict-v2](https://github.com/mjbommar/scotus-predict-v2) and [arXiv:1612.03473](https://arxiv.org/abs/1612.03473).
+
 Predicting the Behavior of the Supreme Court of the United States: A General Approach
 ==================
   *  __Title__: Predicting the Behavior of the Supreme Court of the United States: A General Approach
@@ -15,4 +19,4 @@ The source and data in this repository allow for the reproduction of the results
 The data used in this paper is available from the [Supreme Court Database (SCDB)](http://scdb.wustl.edu/).
 
 ## Version
-The latest version of this model was relesed in October 2015.
+The latest version of this v1 model was released in October 2015.  All future work on Marshall+ will be conducted on [mjbommar/scotus-predict-v2](https://github.com/mjbommar/scotus-predict-v2), which has a latest release date of December 2016.
